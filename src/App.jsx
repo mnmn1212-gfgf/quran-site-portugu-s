@@ -1214,7 +1214,7 @@ export default function QuranTranslationLandingPage() {
                     <div>
                       <p className="text-xs text-white/60 sm:text-sm">Idioma atual</p>
                       <h3 className="mt-1 text-xl font-bold sm:text-2xl">
-                        O Alcorão em árabe
+                        O Alcorão em Português
                       </h3>
                     </div>
                     <div className="w-fit rounded-2xl border border-[#D8B75A]/30 bg-[#005C49]/30 px-4 py-2 text-xs text-[#F5E7B2] sm:text-sm">
