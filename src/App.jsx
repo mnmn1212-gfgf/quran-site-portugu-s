@@ -42,6 +42,8 @@ const PORTUGAL_GRADIENT =
   "bg-[linear-gradient(135deg,rgba(4,18,31,0.98)_0%,rgba(0,92,73,0.94)_52%,rgba(184,134,11,0.88)_100%)]";
 const PORTUGAL_GRADIENT_STYLE =
   "linear-gradient(135deg,rgba(4,18,31,0.98) 0%,rgba(0,92,73,0.94) 52%,rgba(184,134,11,0.88) 100%)";
+const HERO_TITLE_GRADIENT_STYLE =
+  "linear-gradient(90deg,#F5E7B2 0%,#D8B75A 24%,#20D6A8 55%,#E4C76A 78%,#B8860B 100%)";
 const PORTUGAL_BORDER = "border-[rgba(216,183,90,0.28)]";
 
 const OUTER_GRADIENT = PORTUGAL_GRADIENT;
@@ -1117,8 +1119,11 @@ export default function QuranTranslationLandingPage() {
                 className="text-3xl font-black leading-[1.25] sm:text-5xl lg:text-7xl"
               >
                 <span
-                  className="block bg-clip-text text-transparent"
-                  style={{ backgroundImage: PORTUGAL_GRADIENT_STYLE }}
+                  className="block bg-clip-text text-transparent drop-shadow-[0_5px_18px_rgba(0,0,0,0.42)]"
+                  style={{
+                    backgroundImage: HERO_TITLE_GRADIENT_STYLE,
+                    WebkitTextStroke: "0.6px rgba(245,231,178,0.18)",
+                  }}
                 >
                   Canais Corânicos Sana
                 </span>
